@@ -14,14 +14,24 @@
 <div class="container">
 
   <div class="row">
-    <div class="col border border-warning">
+    <div class="col border border-warning .d-no-none .d-sm-none .d-md-block .d-lg-block .d-xl-block">
     <div class="h1">Haruuuuニュース</div>
     </div>
   </div>
 
   <div class="row">
   <div class="col border border-warning">
-    <div class="h3">検索</div>
+
+    <div class="col-3">
+      <div class="input-group">
+        <span class="input-group-text">検索</span>
+        <label>
+          <input class="form-control" type="text">
+        </label>
+        <button class="btn btn-secondary">&#9166;</button>
+      </div>
+    </div>
+
     <div class="btn-group" role="group" aria-label="Basic example">
       <button type="button" class="btn btn-primary">トップ</button>
       <button type="button" class="btn btn-primary">速報</button>
@@ -36,15 +46,15 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-1 my-box">主要</div>
-        <div class="col-1 my-box">国内</div>
-        <div class="col-1 my-box">国際</div>
-        <div class="col-1 my-box">経済</div>
-        <div class="col-1 my-box">エンタメ</div>
-        <div class="col-1 my-box">スポーツ</div>
-        <div class="col-1 my-box">IT</div>
-        <div class="col-1 my-box">科学</div>
-        <div class="col-1 my-box">ライフ</div>
+        <div class="col-1 my-box border-end border-secondary">主要</div>
+        <div class="col-1 my-box border-end border-secondary">国内</div>
+        <div class="col-1 my-box border-end border-secondary">国際</div>
+        <div class="col-1 my-box border-end border-secondary">経済</div>
+        <div class="col-1 my-box border-end border-secondary">エンタメ</div>
+        <div class="col-1 my-box border-end border-secondary">スポーツ</div>
+        <div class="col-1 my-box border-end border-secondary">IT</div>
+        <div class="col-1 my-box border-end border-secondary">科学</div>
+        <div class="col-1 my-box border-start border-secondary">ライフ</div>
         <div class="col-1 my-box">  </div>
         <div class="col-2 my-box">トピックス一覧</div>
 
@@ -54,7 +64,7 @@
   </div>
 </div>
 
-  <div class="row mb">
+  <div class="row ">
     <div class="col-8 border border-primary">
       <h2>メインメニュー</h2>
     </div>
@@ -76,12 +86,18 @@
   </div>
 
 
-  <div class="row mb-5">
+  <div class="row ">
     <div class="col border border-warning">
       <h2>フッター</h2>
     </div>
   </div>
 
+  <div class="d-flex justify-content-start">...</div>
+  <div class="d-flex justify-content-end">...</div>
+  <div class="d-flex justify-content-center">...</div>
+  <div class="d-flex justify-content-between">...</div>
+  <div class="d-flex justify-content-around">...</div>
+  <div class="d-flex justify-content-evenly">...</div>
 
 
 
