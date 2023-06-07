@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+
 </head>
 <body>
 
@@ -32,44 +33,50 @@
       </div>
     </div>
 
-    <div class="btn-group .d-none .d-lg-block .d-xl-none"  role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-primary">トップ</button>
-      <button type="button" class="btn btn-primary">速報</button>
-      <button type="button" class="btn btn-primary">live</button>
-      <button type="button" class="btn btn-primary">個人</button>
-      <button type="button" class="btn btn-primary">オリジナル</button>
-      <button type="button" class="btn btn-primary">みんなの意見</button>
-      <button type="button" class="btn btn-primary">ランキング</button>
-      <button type="button" class="btn btn-primary">有料</button>
+    <div class="btn-group "  role="group" aria-label="Basic example">
+      <button type="button" class="d-none d-md-block btn btn-primary">トップ</button>
+      <button type="button" class="d-none d-md-block btn btn-primary">速報</button>
+      <button type="button" class="d-none d-md-block btn btn-primary">live</button>
+      <button type="button" class="d-none d-md-block btn btn-primary">個人</button>
+      <button type="button" class="d-none d-md-block btn btn-primary">オリジナル</button>
+      <button type="button" class="d-none d-md-block btn btn-primary">みんなの意見</button>
+      <button type="button" class="d-none d-md-block btn btn-primary">ランキング</button>
+      <button type="button" class="d-none d-md-block btn btn-primary">有料</button>
     </div>
 
+    <div class="btn-group"  role="group" aria-label="Basic example">
+      <button type="button" class="d-block d-md-none btn btn-primary"> トップ </button>
+      <button type="button" class="d-block d-md-none btn btn-primary">  速報  </button>
+      <button type="button" class="d-block d-md-none btn btn-primary">  live  </button>
+      <button type="button" class="d-block d-md-none btn btn-primary">ランキング</button>
+      <button type="button" class="d-block d-md-none btn btn-primary">  有料  </button>
+    </div>
 
-    <div class="container-fluid .d-none .d-lg-block .d-xl-none">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-1 my-box border-end border-secondary">主要</div>
-        <div class="col-1 my-box border-end border-secondary">国内</div>
-        <div class="col-1 my-box border-end border-secondary">国際</div>
-        <div class="col-1 my-box border-end border-secondary">経済</div>
-        <div class="col-1 my-box border-end border-secondary">エンタメ</div>
-        <div class="col-1 my-box border-end border-secondary">スポーツ</div>
-        <div class="col-1 my-box border-end border-secondary">IT</div>
-        <div class="col-1 my-box border-end border-secondary">科学</div>
-        <div class="col-1 my-box border-start border-secondary">ライフ</div>
-        <div class="col-1 my-box">  </div>
-        <div class="col-2 my-box">トピックス一覧</div>
+        <div class="d-none d-md-block col-1 my-box border-end border-secondary">主要</div>
+        <div class="d-none d-md-block col-1 my-box border-end border-secondary">国内</div>
+        <div class="d-none d-md-block col-1 my-box border-end border-secondary">国際</div>
+        <div class="d-none d-md-block col-1 my-box border-end border-secondary">経済</div>
+        <div class="d-none d-md-block col-1 my-box border-end border-secondary">エンタメ</div>
+        <div class="d-none d-md-block col-1 my-box border-end border-secondary">スポーツ</div>
+        <div class="d-none d-md-block col-1 my-box border-end border-secondary">IT</div>
+        <div class="d-none d-md-block col-1 my-box border-end border-secondary">科学</div>
+        <div class="d-none d-md-block col-1 my-box ">ライフ</div>
+        <div class="d-none d-md-block col-1 my-box">  </div>
+        <div class="d-none d-md-block col-2 my-box">トピックス一覧</div>
 
       </div>
     </div>
 
-    <div class="container-fluid .d-block .d-sm-none">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-1 my-box border-end border-secondary">主要</div>
-        <div class="col-1 my-box border-end border-secondary">経済</div>
-        <div class="col-1 my-box border-end border-secondary">エンタメ</div>
-        <div class="col-1 my-box border-end border-secondary">スポーツ</div>
-        <div class="col-1 my-box border-start border-secondary">ライフ</div>
-        <div class="col-1 my-box">  </div>
-        <div class="col-2 my-box">トピックス一覧</div>
+        <div class="d-block d-md-none col-2 my-box border-end border-secondary">主要</div>
+        <div class="d-block d-md-none col-2 my-box border-end border-secondary">経済</div>
+        <div class="d-block d-md-none col-2 my-box border-end border-secondary">エンタメ</div>
+        <div class="d-block d-md-none col-2 my-box border-end border-secondary">スポーツ</div>
+        <div class="d-block d-md-none col-2 my-box ">ライフ</div>
+        <div class="d-block d-md-none col-2 my-box">一覧</div>
 
       </div>
     </div>
@@ -82,9 +89,23 @@
       <h2>メインメニュー</h2>
     </div>
 
-    <div class="col-4 border border-danger">
+    <div class="d-none d-md-block col-2 border border-danger">
       <h2>広告</h2>
+      <img class=" img-fluid" src="https://placehold.jp/150x150.png" alt="...">
     </div>
+
+    <div class="d-none d-md-block col-2 border border-danger">
+      <h2>広告文</h2>
+      koukokuこうこく広告koukokuこうこく広告koukokuこうこく広告koukokuこうこく広告koukokuこうこく広告koukokuこうこく広告
+    </div>
+
+    <div class="d-block d-md-none col-4 border border-danger">
+      <h2>広告</h2>
+      <img class=" img-fluid" src="https://placehold.jp/150x150.png" alt="...">
+      <h2>広告文</h2>
+      koukokuこうこく広告koukokuこうこく広告koukokuこうこく広告koukokuこうこく広告koukokuこうこく広告koukokuこうこく広告
+    </div>
+
 
   </div>
 
@@ -104,16 +125,6 @@
       <h2>フッター</h2>
     </div>
   </div>
-
-  <div class="d-flex justify-content-start">...</div>
-  <div class="d-flex justify-content-end">...</div>
-  <div class="d-flex justify-content-center">...</div>
-  <div class="d-flex justify-content-between">...</div>
-  <div class="d-flex justify-content-around">...</div>
-  <div class="d-flex justify-content-evenly">...</div>
-
-
-
 
 
 
