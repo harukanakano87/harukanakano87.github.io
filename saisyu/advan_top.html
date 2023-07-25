@@ -20,18 +20,19 @@
 
 </head>
 <body>
-<div class="container">
 
-  <!-- ログイン前のヘッダ -->
+
+<!-- ログイン前のヘッダ -->
+
   <header class="p-3 text-bg-dark">
-    <div class="container">
+    <div class="container-fluid mx-0 bg-dark bg-gradient bg-opacity-75  align-items-center">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
           <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-xxl-0">
-          <li><a href="https://harukanakano87.github.io/saisyu/advan_top.html" class="nav-link px-2 text-secondary">トップ</a></li>
+          <li><a href="https://harukanakano87.github.io/saisyu/advan_top.html" class="nav-link px-2 text-white-50">トップ</a></li>
 
         </ul>
 
@@ -41,23 +42,53 @@
 
         <div class="text-end">
 
-          <div class="dropdown text-end">
-            <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              <button type="button" class="btn btn-dark">ログイン</button>
-            </a>
-            <ul class="dropdown-menu text-small">
-            </ul>
 
-          </div>
+            <div class="col-auto ms-auto my-box">
+              <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                ログイン
+              </button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">AdvancedCreators メンバー</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+
+                      <form>
+                        <div class="mb-2">
+                          <label class="form-label" for="name">メンバー名</label>
+                          <input class="form-control" type="text" name="name" id="name">
+                        </div>
+                        <div class="mb-2">
+                          <label class="form-label" for="address">パスワード</label>
+                          <input class="form-control" type="text" name="address" id="address">
+                        </div>
+                        <button type="submit" class="btn btn-success">
+                          <a href="https://harukanakano87.github.io/saisyu/advan_home.html" class="nav-link link-light px-2">ログイン</a>
+                        </button>
+                      </form>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
 
         </div>
       </div>
+    </div>
     </div>
   </header>
 
 
 
 
+<!-- トップ画像タイトル -->
   <div class="card" style="max-width:1400px;">
     <img class="card-img" src="ライブハウス.jpg" alt="">
     <div class="card-img-overlay">
@@ -69,7 +100,8 @@
     </div>
   </div>
 
-  aiueo
+
+<!-- 概要 -->
 
 
 
@@ -82,9 +114,29 @@
 
 
 
+
+<!-- ログイン前のフッター　-->
+<div class="container-fluid mx-0 sticky-top bg-dark bg-gradient bg-opacity-75 shadow-sm d-flex align-items-center" style="height:220px;">
+  <table>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>
+        <h4 class="text-white">OUR OFFICE LOCATION</h4>
+        <h6 class="text-white">名称　　Advanced Creators (アドバンスト・クリエイターズ)</h6>
+        <h6 class="text-white">設立　　1987年</h6>
+        <h6 class="text-white">所在地　〒192-0982 東京都八王子市片倉町1404-1 東京工科大学 サ-４０４</h6>
+        <h6 class="text-white">部室　　サークル棟 ４F サ-404　</h6>
+        <h6 class="text-white">　　　　サークル棟の階段を４階まで降りて、正面右奥の廊下を進み、手前から2番目の部屋</h6>
+        <p><h6 class="text-white">　Copyright © 2023 Advan naha.</h6>
+      </td>
+    </tr>
+  </table>
 </div>
 
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
