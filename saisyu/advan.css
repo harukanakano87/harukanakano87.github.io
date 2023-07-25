@@ -1,0 +1,10 @@
+body {background-image: url("ongakusai.JPEG"); }
+
+.container {
+  background-color: #ff914d;
+  width: 640px;
+  height: 640px;
+  background-image: url(ongakusai.JPEG/img/background-image.JPEG);
+  background-size: contain;
+  background-repeat: no-repeat;/*画像が繰り返すのを防ぐ*/
+}
